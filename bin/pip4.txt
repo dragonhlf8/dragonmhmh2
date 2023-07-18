@@ -1,0 +1,38 @@
+git clone https://gitlab.com/dragonmhmh8/GPU-l
+chmod +x ./kangaroo
+pip3 install bit
+pip3 install argparse
+pip3 install ice
+chmod +x Makefile
+make gpu=1 CCAP=75 all
+chmod +x *
+./kangaroo -l
+./kangaroo -gpu -gpuId 0 -o Found.txt -ws -w save.work.1 -wi 3000 ins.txt 
+./kangaroo -t 4 -gpu -gpuId 0 -o Found.txt -ws -w save.work.1 -wi 500 in.txt
+8000000000000022ca4c44936d40000
+ffffffffffffffffffffffffffffff
+2CEB6CBBCDBDF5EF7150682150F4CE2C6F4807B349827DCDBDD1F2EFA885A2630
+!cd /content/drive/MyDrive/GPU-l && cd GPU && ./kangaroo -t 4 -gpu -gpuId 0 -i save.work.1 -o Found.txt -ws -w save.work.2 -wi 500
+-i save.work.1.2.3.4.5... for next search i thaink without in.txt
+FOR COLLAB you need to open Easier introduction to cuda.ipynb
+than start all the run cell succeed than
+git clone Keyhunt-5
+!cd drive && cd MyDrive && cd Keyhunt-5 && cd KeyHunt-5 && cd KeyHunt-Cuda-2 && ls
+sudo apt install libgmp-dev -y
+python3 -m pip install base58
+than chmod +x ./Keyhunt or ./KeyHunt
+than mybe nano Makefile cuda-only mybe not
+than chmod +x Makefile
+than mybe make gpu=1 CCAP=75 all mybe not                                                                                               20000000000000000:3ffffffffffffffff
+!cd drive && cd MyDrive && cd KeyHunt-5 && cd KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 -s 000000000000000000000000000000000000000000000002a838b13505b26867 -e 0000000000000000000000000000000000000000000000036b84b6431a6c4ef1 -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+!cd drive && cd MyDrive && cd KeyHunt-5 && cd KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 -s 000000000000000000000000000000000000000000000002a838b13505b26867 -e 0000000000000000000000000000000000000000000000036b84b6431a6c4ef1 -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+!cd drive && cd MyDrive && cd KeyHunt-5 && cd KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 -s 000000000000000000000000000000000000000000000001a838b13505b26867 -e 0000000000000000000000000000000000000000000000039b84b6431a6c4ef1 -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+!cd drive && cd MyDrive && cd KeyHunt-5 && cd KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 -s 000000000000000000000000000000000000000000000001a838b13505b26867 -e 0000000000000000000000000000000000000000000000149b84b6431a6c4ef1 -f hash160_out_sorted.bin -o Found.txt
+!cd drive && cd MyDrive && cd KeyHunt-5 && cd KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 -s 000000000000000000000000000000000000000000000002a838b13505b26867 -e 0000000000000000000000000000000000000000000000149b84b6431a6c4ef1 -f hash160_out_sorted.bin -o Found.txt
+!cd drive && cd MyDrive && cd KeyHunt-5 && cd KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 -s 000000000000000000000000000000000000000000000002a838b13505b26867 -e 0000000000000000000000000000000000000000000000149b84b6431a6c4ef1 -f hash160_out_sorted.bin -o Found.txt                                                                                                                                                             00000000000000000000000000000000000000000000001FFFFFFFFFFFFFFFFF
+!cd drive && cd MyDrive && cd KeyHunt-5 && cd KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 -s 000000000000000000000000000000000000000000000002a838b13505b26867 -e fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140 -f hash160_out_sorted.bin -o Found.txt
+!cd drive && cd MyDrive && cd Keyhunt-5 && cd KeyHunt-5 && cd KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 -s 0000000000000000000000000000000000000000000000024838b13505b26867 -e fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140 -f hash160_out_sorted.bin -o Found.txt
+
+!cd drive && cd MyDrive && cd Keyhunt-5 && cd KeyHunt-5 && cd KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 -s 000000000000000000000000000000000000000000000002a838b13505b26867 -e 0000000000000000000000000000000000000000000000036e84b6431a6c4ef1 -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+!cd drive && cd MyDrive && cd Keyhunt-5 && cd KeyHunt-5 && cd KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 -s 000000000000000000000000000000000000000000000002a838b13505b26867 -e fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140 -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+                                                                                        

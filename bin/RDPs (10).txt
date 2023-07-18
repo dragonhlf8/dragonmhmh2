@@ -1,0 +1,256 @@
+=======JUST FOR SEPCIAL FOR EXPOSE PORTS IBM/DWAVE Alternatives========================================
+#CONDA
+FROM continuumio/miniconda3 AS build-conda
+#Tensorflow, Jupyter
+FROM tensorflow/tensorflow:latest-gpu-jupyter
+ENV PATH=/opt/conda/bin:$PATH
+COPY --from=build-conda /opt/conda /opt/conda
+#SSH
+RUN apt-get update -y -q
+RUN apt-get install -y -q openssh-server
+RUN echo '' >> /etc/ssh/sshd_config
+RUN echo '# Allow root login' >> /etc/ssh/sshd_config
+RUN echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config
+RUN echo '' >> /etc/ssh/sshd_config
+ENV ROOT_PASSWORD=1q2w3e4r
+RUN bash -c 'echo -e "$ROOT_PASSWORD\n$ROOT_PASSWORD"' | passwd
+CMD bash -c "service ssh start" && bash
+EXPOSE 22 8888
+======================================================================================================= CONSOLE-RDP- START ====
+sudo su scpdxcs / Leap-IDLE / gitpod
+sudo su root
+sudo apt install screen -y
+screen -U -S id
+sudo apt update -y     ///// Special-never (sudo apt upgrade) it-take time and all image will change.
+sudo apt install wget -y 
+sudo apt install git -y
+sudo apt install xserver-xorg-core && sudo apt install xserver-xorg-input-all
+sudo apt-get install xorg-video-abi-24 -y
+sudo apt-get install xorgxrdp-hwe-18.04 -y #xorgrdp-hwe-20.04 for 20.04LTS users
+sudo groupadd -r nomachine -g 433 \
+git clone https://github.com/Scotchman0/XRDP-for-ubuntu
+cd XRDP-for-ubuntu
+chmod +x *
+./xrdp_install.sh
+sudo systemctl restart xrdp
+git clone https://github.com/zakuradev/xrdp-ubuntu
+cd xrdp-ubuntu
+chmod +x *
+bash install.sh
+wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/vnc.sh
+bash vnc.sh && clear
+&& sudo useradd -u 431 -r -g nomachine -d /home/nomachine -s /bin/bash -c "NoMachine" nomachine \
+&& sudo adduser nomachine sudo \
+&& sudo mkdir /home/nomachine \
+&& sudo chown -R nomachine:nomachine /home/nomachine \
+&& sudo echo 'nomachine:nomachine' | sudo chpasswd
+git clone https://github.com/dragonmhmh/nomachine2
+cd nomachine2
+chmod +x * and may bash after add Token
+./kali-linux.sh // then if the next ./kali2.sh didn't connect try ngrok2 with Token then
+2secend console ./kali2.sh if-not try ./kali1.sh et ./kali3.sh
+ubuntu:ubuntu try-later ./kali4.sh for scpdxcs wrf@010
+Try it on Quantum=Dwave² 6.tcp.eu.ngrok.io:12642
+
+RDP=START=HERE + UP-CONTINUE..
+-----------------------------------------------------------------
+install: sudo su root
+sudo apt update -y
+sudo apt install wget -y 
+sudo apt install git -y
+sudo apt install make -y 
+sudo apt install yasm -y
+wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/vnc.sh
+bash vnc.sh && clear
+-----------------------------------------------------------------
+git clone https://github.com/OnlineHacKing/Cloud_Linux_RDP.git
+
+cd Cloud_Linux_RDP
+chmod +x *
+bash Linux
+
+==========> 
+connet via RDP or NOmachine.
+==========================================================----Nvidia CUDA
+sudo apt update / sudo apt-get update
+RDP-NOT-HERE
+/////  sudo apt upgrade ///Special-never it-take time and all image will change .
+sudo ubuntu-drivers devices
+sudo ubuntu-drivers install
+sudo apt search nvidia-driver
+sudo apt-cache search nvidia-driver
+RDP-NOT-HERE
+sudo apt-get update && apt-get dist-upgrade -y
+RDP-NOT-HERE
+sudo apt install hwinfo
+hwinfo --gfxcard --short
+sudo apt install nvidia-driver-390 nvidia-dkms-390
+sudo apt install nvidia-driver-510 nvidia-dkms-510
+/ sudo apt-get nvidia-cuda-toolkit
+sudo apt install nvidia-cuda-toolkit
+sudo lshw -C display
+sudo apt-get install -y ocl-icd-libopencl1 nvidia-driver nvidia-cuda-toolkit
+sudo apt install python
+sudo apt install python2.7
+sudo apt install python3
+sudo apt-get update -y
+sudo apt-get install -y python-pip
+sudo apt-get install -y python3-pip
+sudo apt-cache search libdb
+sudo apt-get install -y python-bsddb3
+sudo apt-get install -y python3-bsddb3
+sudo apt install linuxbrew-wrapper
+brew install berkeley-db@4 ( install with no root )
+sudo apt-get install libdb6.0-dev
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
+pip install bsddb
+pip install bsddb3
+pip3 install bsddb
+pip3 install bsddb3
+cd /tmp
+git clone https://github.com/tanc7/CUDA_Setup_Utility
+cd CUDA_Setup_Utility
+python3 setup.py
+sudo apt install nvcc
+sudo apt install gcc
+sudo apt install nvidia-smi
+sudo apt-get install -y nvidia-smi
+nvidia-smi
+sudo reboot
+nvidia-smi
+/ lspci | egrep -i "vga|display|3d"
+sudo apt install hashcat
+hashcat -I
+--------------------------------------OPENSSL
+check OPENSSL '' openssl version -a
+ifnot   cd /usr/local/src/
+sudo wget https://www.openssl.org/source/openssl-1.1.1c.tar.gz
+sudo tar -xf openssl-1.1.1c.tar.gz
+cd openssl-1.1.1c
+sudo ./config --prefix=/usr/local/ssl --openssldir=/usr/local/ssl shared zlib
+sudo make
+sudo make test
+sudo make install
+sudo vi /etc/ld.so.conf.d/openssl-1.1.1c.conf
+add this line /usr/local/ssl/lib to it and Save the file exit 
+sudo ldconfig -v
+sudo mv /usr/bin/c_rehash /usr/bin/c_rehash.backup
+sudo mv /usr/bin/openssl /usr/bin/openssl.backupsudo
+sudo vi /etc/environment
+add PATH PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/ssl/bin"
+save the file exit than source /etc/environment
+than check openssl version -a
+SOURCE https://fedingo.com/how-to-install-openssl-in-ubuntu/
+       https://www.kali.org/blog/cloud-cracking-with-cuda-gpu/
+_____________________________________________________________________________________
+-------------------------------------------------------------------------Kangaroo GPU------ [in the in.txt yougive(2) them rang + adresses] [ KEY1.txt ]
+sudo apt install git
+sudo apt install make / yasm
+sudo apt install nano
+_____________________ [ OMG it worked But Kangaroo-CPU ! for IBM just with installing !conda install gcc -y / !conda install hwinfo /  hwinfo --gfxcard --short ]
+mkdir btc                                                !pip3 install bit ------ !pip3 install argparse ------ !pip3 install ice
+cd btc
+git clone https://github.com/dragonmhmh/Kangaroo.git
+cd Kangaroo /////not realy mybe/ chmod +x *
+nano Makefile 
+now use up-down-lef-right keuboard to navigate down and delete to keep only cuda / g++ than CTRL+O ENTER than CTRL+X
+(check ccap version The only usefull number of cores)
+cd /usr/local/cuda-11.2/samples/1_Utilities/deviceQuery or any version
+cd /usr/local/cuda-11.3/samples/1_Utilities/deviceQuery
+sudo make 
+sudo cp deviceQuery /usr/bin/
+And type deviceQuery for a detailed info about your GPU.
+now go back to /home/scpdxcs/btc/Kangaroo and write
+make gpu=1 ccap=37 all
+this one not sure // '' make '' than chmod +x *
+./kangaroo -l
+/// ./kangaroo -gpu -gpuId 0,1,2,3,4,5,6,7 -ws -w save.work -wi 3000 in.txt
+remiove the -ws ...    ./kangaroo -gpu -gpuId 0 -w save.work -wi 3000 in.txt   or 1key    ./kangaroo -gpu -gpuId 0 -o Found.txt -ws -w save.work.1 -wi 3000 KEY1.txt
++try number of threads -t 13 / -t 26  13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
+-------------------------------------------------------------------------------------------BSGS-CPU JeanPuc------ [in the in.txt yougive(3)acpunumer + rang + adresses][KEY1.txt]
+git clone https://github.com/dragonmhmh/BSGS-1.git      [WORKED with IBM] with ( KEYS in.txt )
+cd BSGS-1
+make
+chmod +x *
+./bsgs in.txt (BEFORE Entre Nano in.txt and make 60000000 for 6 cpus..etc mybe 90000000 and more 200000000 300000000 400000000 600000000 1000000000 100000000 10000000)
+./bsgs KEY1.txt
+_______________________________________________________________________________________________________________________________________
+-------------------------------------------------------------------------------------------- icon-python-version CPU - v6 -----[in Pubkey.txt Only adresses] [KEY1.txt] .
+sudo apt install imagemagick-6.q16                    [IBM python3 --> NOT WORKIN]
+sudo apt install graphicsmagick-imagemagick-compat
+sudo apt install imagemagick-6.q16hdri
+pip3 install bit
+pip3 install ctypes
+pip3 install os
+pip3 install sys
+pip3 install platform
+pip3 install random
+pip3 install math
+pip3 install signal
+pip3 install argparse
+pip3 install dance
+pip3 install both
+pip3 install backward
+pip3 install secuential
+git clone https://github.com/dragonmhmh/BSGS.git
+cd BSGS
+cd v6_dll_bsgs
+python3 bsgs_create_bpfile_bloomfile.py 4000000000 bpfile.bin bloomfile.bin 6 / 3000000000 4
+chmod +x *
+
+python3 bsgs_dll_search.py -pfile PubKeys.txt -b bpfile.bin -bl bloomfile.bin -keyspace 0:fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140 -rand 
+python3 bsgs_dll_search.py -pfile PubKeys.txt -b bpfile.bin -bl bloomfile.bin -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+special-line -> python3 bsgs_dll_search.py -pfile KEY1.txt -b bpfile.bin -bl bloomfile.bin -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+python3 bsgs_dll_search.py -b bpfile.bin -bl bloomfile.bin -p 037ae51d0e80710608ed91748715dd26ff2cb00f25ab27ea0ddb596653a45d9372 -keyspace 0:fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140 -rand
+python3 bsgs_dll_search.py -b bpfile.bin -bl bloomfile.bin -p 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+
+Without-----Correction------Enough Good that i did't try this 4 Yet!-!!!--------But its The Same and the UP One Do it Auto he gav eme 700000000000000 with 4000000000
+
+----------------------------------------------------KeyHunt CHECK BSGS-alberto--------------------------------------------------------------[WORKED with IBM]
+Try-not_Later -B dance for BSGS KeyHunt :        ./keyhunt -m bsgs -f tests/120.txt -b 120 -M -S -B both
+     ./keyhunt -m bsgs -f tests/120.txt -b 120 -M -S -B dance          ./keyhunt -m bsgs -f tests/120.txt -b 120 -M -S -B secuential
+
+./keyhunt -m bsgs -f tests/120.txt -b 120 -M -S -B backward          ./keyhunt -m bsgs -f tests/120.txt -b 120 -M -S -B random
+---------------------------------------------------KeyHunt CHECK BSGS-alberto-------------------------------------------------------[here 120.txt only adresses + KEYx]
+git clone https://github.com/dragonmhmh/keyhunt.git                  BEST-FOR IBM    [WORKED with IBM] Better with Both KEYS + ONE KEY
+cd keyhunt
+make
+chmod +x *
+./keyhunt -m bsgs -f tests/120.txt -b 125 -M -S -B dance  //  120 ..etc its number of Puzzle .
+./keyhunt -m bsgs -f tests/120.txt -r 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -M -S -B dance
+THIS ONE FIELD in./keyhunt -m bsgs -p 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E CANT SPECIAL A KEY(Solved) Create EXTRA 120.txt for only KEY1
+./keyhunt -m bsgs -f tests/120.txt -r 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -M -S -B dance
+./keyhunt -m bsgs -f tests/120.txt -r 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -S -B dance
+-q (quiet you should stop matrix so -+M ) -s 10 ( Output each 10 secende stream ) -t (number of threads 16/24).
+----------------------------------------------------------------------------------------------------------------------------------------- -  
+=====================================================================================================================================================================
+-------------------------------------------------------------------------------------------------Icon-python-version GPU trial field of graphique card Tesla K80 _
+-------------------------------------------------------------------------------------------------JUST field-type FOR THE GRAPHIQUE of icon-python-version GPU trial
+[ FOR IBM ITS NOT WORKING but this !conda install hwinfo -y // or Curl ...etc // kinda creapy [ !conda install secp256k1 as ice -y ] !conda install gcc -y 
+AFTERINSTALLING CUDA and CARTE GRAPHIQUE PERFECTLY USE :
+git clone https://github.com/dragonmhmh/BSGS.git
+cd BSGS && cd v7_gpu_trial
+chmod +x *
+python3 bsgs_GPU.py -pubkey 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -n 1000000000000000000 -d 0 -t 192 -b 13 -p 1024 -bp 5000000 -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+python3 bsgs_GPU.py -pubkey 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -n 1000000000000000000 -d 0 -t 256 -b 20 -p 512 -bp 30000000 -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+python3 bsgs_GPU.py -pubkey 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -n 1000000000000000000 -d 0 -t 192 -b 13 -p 1024 -bp 30000000 -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+python3 bsgs_GPU.py -pubkey 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -n 1000000000000000000 -d 0 -t 256 -b 20 -p 512 -bp 5000000 -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+python3 bsgs_GPU.py -pubkey 037ae51d0e80710608ed91748715dd26ff2cb00f25ab27ea0ddb596653a45d9372 -n 1000000000000000000 -d 0 -t 192 / 576 -b 13 / 26 -p 2048/1024/64 -bp 20000000 -keyspace 0:fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140 -rand
+python3 bsgs_GPU.py -pubkey 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -n 1000000000000000000 -d 0 -t 192 -b 13 -p 1024 -bp 30000000 -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+python3 bsgs_GPU.py -pubkey 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -n 1000000000000000000 -d 0 -t 192 -b 13 -p 1024 -bp 20000000 -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+
+-* Field cause of new graphics / amd Tesla /   
+python3 bsgs_GPU.py -pubkey 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -n 1000000000000000000 -d 0 -t 192 -b 13 -p 1024 -bp 40000000 -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+python3 bsgs_GPU.py -pubkey 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -n 1000000000000000000 -d 0 -t 192 -b 13 -p 1024 -bp 6000000 -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+python3 bsgs_GPU.py -pubkey 037ae51d0e80710608ed91748715dd26ff2cb00f25ab27ea0ddb596653a45d9372 -n 1000000000000000000 -d 0 -t 192 -b 13 -p 1024 -bp 5000000 -keyspace 0:fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140 -rand
+python3 bsgs_GPU.py -pubkey 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -n 1000000000000000000 -d 0 -t 192 -b 13 -p 1024 -bp 4000000 -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+python3 bsgs_GPU.py -pubkey 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -n 1000000000000000000 -d 0 -t 192 -b 13 -p 1024 -bp 5000000 -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+python3 bsgs_GPU.py -pubkey 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -n 1000000000000000000 -d 0 -t 192 -b 13 -p 1024 -bp 30000000 -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+python3 bsgs_GPU.py -pubkey 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -n 1000000000000000000 -d 0 -t 192 -b 13 -p 1024 -bp 30000000 -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand
+============================================================================================================================================================================
+Kangaroo-CPU ORIGINALE try it on IBM it= didn't WORK................... WAIiTt !! KANGAROO CPU IS GOOD AND SPECIAL 500 TERA/KEYs WORK also in dwave.
+!git clone https://gitlab.com/dragonmhmh/kangaroo-CPU.git ...............wOW his RANDOMITY is SPECIAL BIG RANGS!
+!kina cd kangaroo-CPU
+!chmod +x *
+!pip3 install bit ------ !pip3 install argparse ------ !pip3 install ice
+!python3 kangaroo.py -p 0233709EB11E0D4439A729F21C2C443DEDB727528229713F0065721BA8FA46F00E -keyspace 10000000000000000000000000000000:1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -rand -ncore 7

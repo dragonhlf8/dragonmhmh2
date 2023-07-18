@@ -1,0 +1,84 @@
+https://bitcoindata.science/bitcoin-balance-check.html 30 addresses https://bitcointools.site/tool/address-to-hash
+https://colab.research.google.com/drive/1MVuk95mMg4ecGyUAIG94vedF81HtWQAr?usp=sharing
+https://github.com/og7c4g/Keyhunt-Cuda-M
+https://github.com/moedacompix/Keyhunt-Cuda
+Pushing
+git add
+git add -u
+git status
+git commit -m " added "
+git push 
+username password
+blocked667275653aimen.eldjoundi@gmail.comWrf@60
+git pull = telecharer les autres chose que tappa dans votre folder
+https://iancoleman.io/bitcoin-key-compression/
+sm_compute-number graphics how many can run core / CCAP 3.2-20 5-35 6-50 8-60 9-70 10-75  ..version depens on cuda version 12 9
+....
+pub 2 armd mode with using puzzle mybe
+so this is the hash rmd using that small key The input file need to have the hash RMD160 of the address without publickey leaked:
+ little more faster because it skip the EC Operations
+3ee4133d991f52fdf6a25c9834e0745ac74248a4 stiil dont know what is but its hash that helps and its not realy that important
+-------------
+so they are just mods like Addresses / Address for solo
+Keyhunt can work in diferent ways at different speeds.
+The current availables modes are:
+address solo
+rmd160
+xpoint
+bsgs
+Experimental modes
+minikeys
+pub2rmd
+--------------------------------------------- output result in keyhunt readme of alberto 
+pubkey: 0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798 compressed with prephix 02/03 not like non compres 04
+Address 1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH
+rmd160 751e76e8199196d454941c45d1b3a323f1433bd6
+---------------------------------------------------------------- I NEED TO CHECK that result of key how to remplir i mean TEST IT with BTC crack to Wif after you do
+[+] -- from : 0x0000000000000000000000000000000000000000000000000000000000000000 0x60F4D11574F5DEEE49961D9609AC6 i dunno if you add only 0x
+[+] -- to   : 0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140 or all fffff ans zeros 0000 for 1NLbHuJebVwUZ1XqDjsAyfTRUPwDQbemfv
+THIS SITE GIVE YOU PUBKEY TO HASH https://bitcointools.site/tool/pubkey-to-address 0x0000000000000000000000000000000ebaaedce6af48a03bbfd25e8cd0364141
+Leap IDE ~ $ sudo su root & sudo adduser usr && sudo usermod -aG sudo usr & usermod -a -G sudo & sudo -i passwd & sudo passwd jovian / write the password conda
+sudo apt install -y libgmp-dev
+sudo apt install nvidia-smi 
+sudo apt install python3
+sudo apt install nvidia-cuda-toolkit & i may need to make a qucik Kangaroo steps to reach ./Kangaroo -l to check how many Nvidia numbers i got && cuda/any --version
+sudo apt install nvcc 
+sudp apt install gcc
+nvidia-smi && sudo apt install nvidia-settings
+nvidia-settings -q CUDACores -t & nvidia-settings -q CUDACores -t MYBE nvidia-settings -q :0/CUDACores 
+(check ccap version The only usefull number of cores)
+cd /usr/local/cuda-11.2/samples/1_Utilities/deviceQuery or any version
+// sudo make // 
+sudo cp deviceQuery /usr/bin/
+And type deviceQuery for a detailed info about your GPU.
+Than nano complie make file cuda/-8.0 and g++//-4.8 than dev CTRL+O ENTER than CTRL+X
+$ make all
+$ cd Rotor-Cuda
+'' than chmod +x * also if any file doesnt wanna run liket bash or ./
+$ make gpu=1 CCAP=75 all
+$ cd BinSort
+$ make
+alberto-shits / mkdir / rm-rmdir * make / make all / make * ./crackbtcshell  ...................... MV rename file instead of delet RM
+apt update && apt upgrade
+apt install git -y
+apt install build-essential -y
+apt install libssl-dev -y
+apt install libgmp-dev -y
+$ cd BinSort
+$ make
+python3 -m pip install base58
+tar xf / tar xvzf unzip / zip .... - sudo apt install zip / apt-get apt-install after install the module you can also compress " zip -r MyDocsFolder.zip MyDocsFolder '"
+pip install -r requirements.txt     FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+THAN USE CRACKBTC privatekeytowif   000000000000000000000000000000000000000000000000adf754734f7cf61a or like PRiv =0x11720C4F018D51B8CEBBA8 11720C4F018D51B8CEBBA8 
+GPU Bitcoin Multi Address mode:
+
+Range: Rotor-Cuda.exe -g --gpui 0 --gpux 256,256 -m addresses --coin BTC --range 0:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -i hash160_out_sorted.bin -o Found.txt
+
+'' KeyHunt-Cuda.exe -t 0 -g --gpui 0 --gpux 256,256 -m addresses --coin BTC --range 0:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -i hash160_out_sorted.bin -o Found.txt ''
+
+INDERSTUDE [ Reloads random start Private key every For random search add -r 1 to parameters r 2 until (-r 1-1000) ] -r, --rkey Rkey Random keys ! interval in MegaKeys, 
+GPU Public key Multi X Points mode:
+
+Range: Rotor-Cuda.exe -g --gpui 0 --gpux 256,256 -m xpoints --coin BTC --range 0:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -i xpoints_1_37_out_sorted.bin -o Found.txt
+
+" KeyHunt-Cuda.exe -t 0 -g --gpui 0 --gpux 256,256 -m xpoints --coin BTC --range 0:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -i xpoints_1_37_out_sorted.bin -o Found.txt "

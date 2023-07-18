@@ -1,0 +1,76 @@
+https://keys.lol/bitcoin/238815447750501628
+first put hotmail than switch
+tempmail.org -------------- https://campus.datacamp.com/courses/introduction-to-numpy/ ... start in workspace is 16 cpu https://app.datacamp.com/workspace/w/7967ad47-72af-494b-a3a6-384268ba6022/edit?editorVersion=dcStudioEditor
+      
+https://www.nvidia.com/en-us/training/online/ !/usr/local/cuda/bin/nvcc --version
+https://courses.nvidia.com/courses/course-v1:DLI+L-FX-04+V2
+https://colab.research.google.com/github/NVDLI/notebooks/blob/master/even-easier-cuda/An_Even_Easier_Introduction_to_CUDA.ipynb
+
+20000000000000000:3ffffffffffffffff                                           
+000000000000000000000000000000000000000000000001a838b13505b26867
+0000000000000000000000000000000000000000000000035FFFFFFFFFFFFFFF
+10000000000000000:1a838b13505b26867
+10000000000000000:1ffffffffffffffff
+20000000000000000:35fffffffffffffff
+
+!git clone https://gitlab.com/dragonmhmh8/WifSolverCuda Or git clone https://github.com/dragonhlf/WifSolverCuda
+
+!cd drive && cd MyDrive && cd WifSolverCuda && cd WifSolverCuda && ./wifSolver -stride 2208e59ffda12f000 -u -wifStart 5HpHagT65TZzG1PH3CSu63k8DbpvD8s5iKKKKKKKKKKKKKKKKKK -wifEnd 5HpHagT65TZzG1PH3CSu63k8DbpvD8s5itSvZV2R4aJs65TTYmz  -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -fstatus fileStatus.txt -fresult Found.txt -restore fileStatus.txt
+
+!cd drive && cd MyDrive && cd WifSolverCuda && cd WifSolverCuda && ./wifSolver -stride 2208e59ffda12f000 -u -wifStart 5HpHagT65TZzG1PH3CSu63k8DbpvD8s5ipCnYRNeQuRFKarWVVs -wifEnd 5HpHagT65TZzG1PH3CSu63k8DbpvD8s5itSvZV2R4aJs65TTYmz  -a 1BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9 -fresult result.txt -fstatus fileStatus.txt -restore fileStatus.txt
+
+''' cd NBitcoin-Google-Colab/ """ without ! + path / make you entre without back !!
+
+!cd drive && cd MyDrive && cd KeyHunt-5 && cd KeyHunt-Cuda-2 && ./KeyHunt -t 0 -g --gpui 0 -s 10000000000000000 -e fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140 -f hash160_out_sorted.bin -o Found.txt
+
+!cd drive && cd MyDrive && cd KeyHunt-5 && cd KeyHunt-Cuda-2 && ./KeyHunt -t 0 -g --gpui 0 -s 24000000000000000 -e 35fffffffffffffff -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+
+Getting Started with Image Segmentation
+
+main.py --maskedkey=5HpHagT65TZzG1PH3CSu63k8DbpvD8s5i****************** --address=13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
+
+L5EZftvrYaSudiozVRzTqLcHLNDo***H5HSfM9BAN6tMJX8oTWz6
+
+5HpHagT65TZzG1PH3CSu63k8DbpvD8s5iKKKKKKKKKKKKKKKKKK
+5HpHagT65TZzG1PH3CSu63k8DbpvD8s5i******************
+5HpHagT65TZzG1PH3CSu63k8DbpvD8s5ipCnYRNeQuRFKarWVVs
+
+./main.py --maskedkey=5HpHagT65TZzG1PH3CSu63k8DbpvD8s5i****************** --address=13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so 
+
+                                           17                                                               5HpHagT65TZzG1PH3CSu63k8DbpvD8s5ipCnYRNeQuRFKarWVVs
+
+
+KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qZM21gaY8WN2CdwnTG57
+
+
+https://keys.lol/bitcoin/238815447750501584
+
+5HpHagT65TZzG1PH3CSu63k8DbpvD8s5ipCnYRNeQuRFKarWVVs
+
+
+
+
+5HpHagT65TZzG1PH3CSu63k8DbpvD8s5ipCn YRN eQuRF F
+https://keys.lol/bitcoin/238815447750501584
+https://keys.lol/bitcoin/238815447750516176
+5HpHagT65TZzG1PH3CSu63k8DbpvD8s5i https://keys.lol/bitcoin/238999993958116176
+
+0123456789ABCEDEADFAEzazeaefaefaez
+KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3q
+
+509472955201070048
+
+1929868153955269923726183083478131797547292737984581739710086052358636024906
+
+904625697166532776746648320380374280100293470930272690489102837043110636675
+
+Pls again with " Lines per Page " not " Page per Lines "
+two identical books have both same data full with Lines each Line contain a word
+but book number 1 has 1929868153955269923726183083478131797547292737984581739710086052358636024906 page and each page has 60 Line
+but book number 2 has 904625697166532776746648320380374280100293470930272690489102837043110636675 page and each page has 128 Line
+if there is specphique Line in the page 509472955201070048 of the book number 1 ,
+what page in book number 2  i can find that specphique Line ? 
+
+
+if 1929868153955269923726183083478131797547292737984581739710086052358636024906 is 100%
+what is gona be 509472955201070048 ?

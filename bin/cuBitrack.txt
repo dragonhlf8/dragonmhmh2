@@ -1,0 +1,42 @@
+git clone https://github.com/dragonhlf8/dragonmhmh2   //   https://gitlab.com/dragonmhmh2/Bitcrack
+chmod +x Makefile
+make BUILD_CUDA=1 COMPUTE_CAP=75 all
+make BUILD_CUDA=1
+!apt install cuda-toolkit-12-1 -y
+!ln -s /usr/local/cuda-12.1/include/CL /usr/include && apt-get install opencl-headers && apt-get install ocl-icd-libopencl1
+!ln -s /usr/local/cuda-5.5/include/CL /usr/include
+!apt-get install opencl-headers -y
+!apt-get install ocl-icd-libopencl1 -y
+chmod +x cuBitCrack // cuBitcrack 
+--continue save.txt ONly for the first time to create the file than you can WIFE --Keyspace
+./cuBitCrack -i address.txt --keyspace 2f18dbceb0d27ff80:fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140 -u --random -o Found.txt --continue save.txt
+./cuBitCrack --keyspace 2f18dbceb0d27ff80:3268c3736d7efff81 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -u --random -o Found.txt --continue save.txt 
+./cuBitCrack -i addresses.txt --keyspace 2a838b13505b26867:1fffffffffffffffff -u -o Found.txt --random --continue save.txt
+!cd drive && cd MyDrive && cd dragonmhmh2 && cd bin && ./cuBitCrack -b 64 -t 128 -p 4000 --keyspace 2f18dbceb0d27ff80:3268c3736d7efff81 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -u -o Found.txt --continue save.txt
+!cd drive && cd MyDrive && cd dragonmhmh2 && cd bin && ./cuBitcrack -b 64 -t 128 -p 4000 --keyspace 2f18dbceb0d27ff80:3268c3736d7efff81 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -u -o Found.txt --continue save.txt
+
+BTW, try to increase the number of points, your total RAM in GB*1000
+
+for my setup 4GB of ram on an AMD Radeon 540X, i use this combo and results are very satisfying.
+
+-b 64 -t 128 -p 4000
+
+git clone https://gitlab.com/dragonhlf/WifSolverCuda
+!cd drive && cd MyDrive && cd WifSolverCuda && cd WifSolverCuda && ./wifSolver
+-restore fileStatus.txt
+-stride 0000000000000000000000000000000000000000000000000000000000000001 -u -wifStart 5HpHagT65TZzG1PH3CSu63k8DbpvD8s5ipJzzx1FiSJm8izkJKn -wifEnd 5HpHagT65TZzG1PH3CSu63k8DbpvD8s5ipL116Ukot1e3cRTBQm -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -fstatus fileStatus.txt -fresult Found.txt
+https://github.com/brichard19/BitCrack/issues/313
+-stride 58 -u -wifStart 5HpHagT65TZzG1PH3CSu63k8DbpvD8s5ipJzzx1FiSJm8izkJKn -wifEnd 5HpHagT65TZzG1PH3CSu63k8DbpvD8s5ipL116Ukot1e3cRTBQm -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -fstatus fileStatus.txt -fresult Found.txt
+
+
+0000000000000000000000000000000000000000000000022000000000000000
+000000000000000000000000000000000000000000000002efffffffffffffff
+000000000000000000000000000000000000000000000002ffffffffffffffff
+000000000000000000000000000000000000000000000002f18dbceb0d27ff80
+
+0000000000000000000000000000000000000000000000031000000000000000
+000000000000000000000000000000000000000000000003268c3736d7efff81
+0000000000000000000000000000000000000000000000032fffffffffffffff
+
+000000000000000000000000000000000000000000000003dfffffffffffffff
+000000000000000000000000000000000000000000000003efffffffffffffff
