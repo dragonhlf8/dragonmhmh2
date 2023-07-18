@@ -1,0 +1,38 @@
+mkdir App
+gitclone / upload
+tar -xzvf xmrig-2.8.3-xenial-amd64.tar.gz -C ./App
+mybe chmod +x * or ./xmrig
+algo cryptonight-lite
+donate level 2 
+max cpu usage 85  ; 75
+threads null or the number o them
+retreis 30
+retrey pause 10
+./xmrig -c config.json
+au.fastpool.xyz fastpool.xyz:
+fr.aeon.miner.rocks:30112 3333 / 3334 /443
+!cd mrig-2.8.5 && cd xmrig-2.8.3 && ./xmrig -c config1.json
+./xmrig -o fr.aeon.miner.rocks:30112 -u 43SaFxJ4mpXbgVQihPirgf3QJk6R3YJjDXpkG9wQaBg3PEd67AFjFyCSK7j5W8zYVUGjktyDAVWsKKbh8KouPXWS1j6LhJv --tls -k -a cn-lite/1
+./xmrig --opencl -o fr.aeon.miner.rocks:30112 -u 43SaFxJ4mpXbgVQihPirgf3QJk6R3YJjDXpkG9wQaBg3PEd67AFjFyCSK7j5W8zYVUGjktyDAVWsKKbh8KouPXWS1j6LhJv --tls -k -a cn-lite/1
+./xmrig --opencl --cuda -o fr.aeon.miner.rocks:30112 -u 43SaFxJ4mpXbgVQihPirgf3QJk6R3YJjDXpkG9wQaBg3PEd67AFjFyCSK7j5W8zYVUGjktyDAVWsKKbh8KouPXWS1j6LhJv --tls -k -a cn-lite/1
+./xmrig --donate-level 1 -o fr.aeon.miner.rocks:30112 -u 43SaFxJ4mpXbgVQihPirgf3QJk6R3YJjDXpkG9wQaBg3PEd67AFjFyCSK7j5W8zYVUGjktyDAVWsKKbh8KouPXWS1j6LhJv -p w=Rig1 -a k12 -k
+
+
+
+https://eu-de.dataplatform.cloud.ibm.com/registration/stepone?context=cpdaas&apps=data_science_experience%2Cwatson_machine_learning%2Ccos&preselect_region=true
+
+!wget https://github.com/xmrig/xmrig/releases/download/v5.5.1/xmrig-5.5.1-xenial-x64.tar.gz
+
+!tar -zxf xmrig-5.5.1-xenial-x64.tar.gz
+
+!cd xmrig-5.5.1
+!
+!cd xmrig-5.5.1 && ./xmrig -a rx --coin monero -o stratum+tcp://rx.unmineable.com:443 -u XMR:43SaFxJ4mpXbgVQihPirgf3QJk6R3YJjDXpkG9wQaBg3PEd67AFjFyCSK7j5W8zYVUGjktyDAVWsKKbh8KouPXWS1j6LhJv.dragonique --tls -k
+--cuda --no- 
+!cd xmrig-5.5.1 && ./xmrig --cuda -a cn-pico/tlo --coin monero --keepalive -o stratum+tcp://pool.supportxmr.com:443 -u 43SaFxJ4mpXbgVQihPirgf3QJk6R3YJjDXpkG9wQaBg3PEd67AFjFyCSK7j5W8zYVUGjktyDAVWsKKbh8KouPXWS1j6LhJv --tls -k --donate-level 1
+STARTI WITH BACKROUND
+!cd xmrig-5.5.1 && ./xmrig -a cn-pico/tlo --coin monero -o stratum+tcp://pool.supportxmr.com:443 -u 43SaFxJ4mpXbgVQihPirgf3QJk6R3YJjDXpkG9wQaBg3PEd67AFjFyCSK7j5W8zYVUGjktyDAVWsKKbh8KouPXWS1j6LhJv --tls -k --donate-level 1 --background
+THAN WITHOUT BACKROUND
+!cd xmrig-5.5.1 && ./xmrig -a cn-pico/tlo --coin monero -o stratum+tcp://pool.supportxmr.com:443 -u 43SaFxJ4mpXbgVQihPirgf3QJk6R3YJjDXpkG9wQaBg3PEd67AFjFyCSK7j5W8zYVUGjktyDAVWsKKbh8KouPXWS1j6LhJv --tls -k --donate-level 1
+
+!cd xmrig-5.5.1 && ./xmrig -a cn-pico/tlo --coin monero -o stratum+tcp://pool.supportxmr.com:443 -u 43SaFxJ4mpXbgVQihPirgf3QJk6R3YJjDXpkG9wQaBg3PEd67AFjFyCSK7j5W8zYVUGjktyDAVWsKKbh8KouPXWS1j6LhJv --tls -k --donate-level 1
